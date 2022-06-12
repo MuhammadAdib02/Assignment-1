@@ -1,0 +1,293 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Menu</title>
+<body background ='pizzaback.png'>
+</head>
+<body>
+
+<style>
+header{
+height:70px;
+background:#7E7E7E;
+padding:0 50px;
+}
+
+nav{
+width : 40%;
+float : right;
+}
+nav ul{
+list-style:none;
+float:right;
+}
+
+nav ul li{
+display: inline-block;
+}
+nav ul li a{
+text-decoration:none;
+color:#0A0A0A;
+font-family:sans-serif;
+font-weight:bold;
+margin:0 10px;
+line-height:60px;
+text-transform:uppercase;
+}
+
+	nav ul li a::after{
+		content: '';
+		width: 0%;
+		height: 5px;
+		background: #1B1B1B;
+		display: flex;
+		margin: auto;
+		transition: 0.3s;
+	}
+
+nav ul li a:hover::after{
+width: 70%;
+}
+.heading{
+font-size:48px;
+margin:32px;
+text-transform:capitalize;
+font-family: Times New Roman;
+text-align:center;
+}
+.contact-form{
+width:85%;
+max-width:600px;
+background: #f1f1f1;
+margin-top:25px;
+padding: 30px 40px;
+border-radius:8px;
+text-align:center;
+box-shadow: 0 0 20px #000000b3;
+font-family:Montserrat;
+} 
+
+.contact-form h1{
+margin-top:0;
+font-weight:200;
+text-align:center;
+}
+
+.txtb{
+border:4px solid gray;
+margin: 12px 18px;
+border-radius: 8px;
+}
+
+	.paragraph{
+		font-size: 20px;
+		line-height: 32px;
+		font-family: 'Lobster', cursive;
+	}	
+	
+.txtb label{
+display:block;
+text-align: left;
+color: #333;
+text-transform: uppercase;
+font-size:14px;
+text-align:center;
+}
+
+.txtb input, txtb textarea{
+width:100%;
+border:none;
+background: none;
+ountline:none;
+font-size:18px;
+margin-top:6px;
+text-align:center;
+}
+
+.btn{
+display:block;
+background:#9b59b6;
+padding: 14px 0;
+color: white;
+text-transform: uppercase;
+cursor: pointer;
+margin-top: 8px
+width:100%;
+}
+	.cta{
+		margin: 100px auto;
+		width: 80%;
+		background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("backwhite.jpg");
+		background-position: center;
+		background-size: cover;
+		border-radius: 10px;
+		text-align: center;
+		padding: 100px 0;
+	}
+	.cta h1{
+		color: #fff;
+		margin-bottom: 40px;
+		padding: 0;
+	}
+
+footer{
+background:#000;
+color:#fff;
+padding:0px 50px;
+text-align:center;
+font-family:sans-serif;
+font-size:20px;
+}
+</style>
+
+<header>
+<center>
+<nav> 
+<ul>
+<li><a href = "home.html">Home</a></li>
+<li><a href = "about.html">About</a></li>
+<li><a href = "menu.html">Menu</a></li>
+<li><a href = "info.html">Info</a></li>
+</nav>
+</ul>
+</header>
+</center>
+
+<p><font size=8 color='#26438F'>       .</font></p>
+	
+	
+			<center>
+	<img src="menuuu.png" width="471" height="306">
+	<section class="cta">
+		<center>
+			<h1 class="paragraph">BEST DEAL MENU</h1>
+  <h1 class="paragraph">ALL NEW X-MEAL</h1>
+
+
+	<br>
+
+	<table width="818" border="1" cellpadding="1">
+	  <tr>
+	    <td width="334" height="300" rowspan='2' bgcolor='#FFFFFF'><img src="x-party.png" width="333" height="293" alt=""/></td>
+	    <td width="468" height="300" bgcolor='#FFFFFF'><center><h3 class="paragraph"><b>All New X-Party</b></h3>
+			<br>
+			Save RM 67.10 with our All New X-Party, perfect for 6 - 8 pax.
+			<br>
+			Includes:<br>
+			2x Large Pizzas of Your Choice<br>
+			8x Pc New York Wings<br>
+			6x Creamy Mushroom Soup<br>
+			2x Crazi Garlic Twist<br>
+			2x 1.5 Litre Bottles American Ice Tea<br></center>
+	    </td>
+      </tr>
+</table>
+	<table width="818" border="1" cellpadding="1">
+	  <tr>
+	    <td width="334" height="300" rowspan='2' bgcolor='#FFFFFF'><img src="x-family.png" width="334" height="293" alt=""/></td>
+	    <td width="468" height="300" bgcolor='#FFFFFF'><center><h3 class="paragraph"><b>All New X-Family</b></h3>
+			<br>
+			Save RM 44.95 with our All New X-Family, perfect for 4 - 6 pax.
+			<br>
+			Includes:<br>
+			2x Regular Pizzas of Your Choice<br>
+			4x Creamy Mushroom Soup<br>
+			2 Crazi Garlic Twist<br>
+			1x 1.5 Litre Bottle of American Ice Tea<br></center>
+	    </td>
+      </tr>
+</table>
+	<table width="818" border="1" cellpadding="1">
+	  <tr>
+	    <td width="334" height="300" rowspan='2' bgcolor='#FFFFFF'><img src="x-twin.png" width="333" height="293" alt=""/></td>
+	    <td width="468" height="300" bgcolor='#FFFFFF'><center><h3 class="paragraph"><b>All New X-Twin</b></h3>
+			<br>
+			Save RM 12.70 with our All New X-Twin, perfect for 2 pax.
+			<br>
+			Includes:<br>
+			1x Regular pizza of your choice<br>
+			1x Crazi Garlic Twist<br>
+			1x 500ml Bottle American Ice Tea<br></center>
+	    </td>
+      </tr>
+</table>
+</table>
+	<table width="818" border="1" cellpadding="1">
+	  <tr>
+	    <td width="334" height="300" rowspan='2' bgcolor='#FFFFFF'><img src="x-large.png" width="335" height="293" alt=""/></td>
+	    <td width="468" height="300" bgcolor='#FFFFFF'><center><h3 class="paragraph"><b>All New X-Large</b></h3>
+			<br>
+			Save RM 29.15 with our All New X-Large, perfect for 2 - 4 pax.
+			<br>
+			Includes:<br>
+			1x Large Pizza of Your Choice<br>
+			3x Creamy Mushroom Soup<br>
+			2x Crazi Garlic Twist<br>
+			1x 1.5 Litre Bottle American Ice Tea<br></center>
+	    </td>
+      </tr>
+</table>
+		<br>
+		<h1>ALL TIME DEALS - SAVE MORE!</h1>
+	<table width="818" border="1" cellpadding="1">
+	  <tr>
+	    <td width="402" height="399" rowspan='2' bgcolor='#FFFFFF'>
+			<img src="large pizza.png" width="400" height="278" align="top" alt=""/>
+			<center><h3 class="paragraph"><b>2x Large Pizza Deal - Double Deal</b></h3>
+        <p>2x Large Pizza Deal [RM59] - Double Deal [Save RM21.90]<br>
+			T&C: Surcharges applies for upgrading item and crust.</p>
+		</td>
+	    <td width="402" height="399" rowspan='2' bgcolor='#FFFFFF'>
+		  <img src="regular pizza.png" width="400" height="278" align="top" alt=""/>
+			<center><h3 class="paragraph"><b>2x Regular Pizza Deal - Double Deal</b></h3>
+        <p>2x Large Pizza Deal [RM59] - Double Deal [Save RM21.90]<br>
+			T&C: Surcharges applies for upgrading item and crust.</p>
+		</td>
+      </tr>
+</table>		
+	<table width="818" border="1" cellpadding="1">
+	  <tr>
+	    <td width="402" height="394" rowspan='2' bgcolor='#FFFFFF'>
+		  <img src="mushroom.png" width="400" height="278" align="top" alt=""/>
+			<center><h3 class="paragraph"><b>2x Creamy Mushroom Soup - Double Deal</b></h3>
+        <p>Everything is more fun in pairs, so we have offered you this delightful savings! Save RM 3.70 when you buy 2x creamy mushroom soup with this Double Deal!</p>
+		</td>
+	    <td width="402" height="394" rowspan='2' bgcolor='#FFFFFF'>
+		  <img src="wings.png" width="400" height="278" align="top" alt=""/>
+			<center><h3 class="paragraph"><b>2x New York Wings (16pcs) - Double Deal</b></h3>
+        <p>Everything is more fun in pairs, so we have offered you this delightful savings! Save RM 5 when you buy 2x 8pcs New York Wings with this Double Deal!</p>
+		</td>
+      </tr>
+</table>
+	<table width="412" border="1" cellpadding="1">
+	  <tr>
+	    <td width="417" height="400" rowspan='2' bgcolor='#FFFFFF'>
+			<img src="tea.png" width="400" height="278" align="middle" alt=""/>
+			<center><h3 class="paragraph"><b>2x American Iced Tea - Double Deal</b></h3>
+        <p>Everything is more fun in pairs, so we have offered you this delightful savings! Save RM 6 when you buy 2x 1.5 litre American Iced Tea with this Double Deal!</p>
+		</td>
+		</tr>
+</table>
+	</section></center>
+				
+    <br>
+<hr style="width:80%">
+<h2><p class="link" style=text-align:center><font color='#FF0000'><strong><b><u><em>Feel free to follow us on social media:</em></u></strong></p></h2>
+<a href='https://www.instagram.com/uspizzamalaysia/?hl=en' target='_blank'>
+<center><img src='insta1.jpg'alt='Instagram' width='111' height='105' ></a>
+<a href='https://www.facebook.com/USPizzaMalaysia/' target='_blank'>
+	<img src='facebook1.png'alt='Facebook' width='182' height='120' ></a>
+<a href='https://www.tiktok.com/@uspizza73' target='_blank'><img src='tiktok1.png' alt='Tiktok' width='122' height='113'></h5>
+</a>
+	</center>
+						
+
+
+<footer>
+<p><center>© 2022 Muhammadib</center></p>
+</footer>
+
+
+</body>
+</html>
